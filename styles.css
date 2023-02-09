@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f4f4;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 1200px;
+  height: 210px;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.col-header {
+  width: 300px;
+  box-shadow: 4px 4px 9px rgba(129, 93, 93, 0.36);
+  border-radius: 40px;
+  background-color: #804242;
+  background-image: url(media/2.jpg);
+  padding: 0.8rem 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background-image: url(media/ivlev1.jpg);
+  background-size: 100%;
+  padding: 0.8rem 1rem;
+  color: #4d4c4c;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 300px;
+  height: 300px;
+}
+
+.start {
+  background: #717174;
+}
+
+.progress {
+  background: #717174;
+}
+
+.done {
+  background:  #717174;
+}
+
+.hold {
+  border: 2px  grey;
+  background-image: url(media/ivlev2.jpg);
+  background-position: 50% 30%;
+  background-size: 150%;
+}
+
+.hide {
+  display: none
+}
+
+.hovered {
+  border-top: 2px solid grey;
+}
